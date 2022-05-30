@@ -10,10 +10,6 @@ import {
 } from '@reduxjs/toolkit';
 import { Context, createWrapper, MakeStore } from 'next-redux-wrapper';
 import logger from 'redux-logger';
-// import { todosSlice } from '@/store/todos';
-// import { selectedTodoSlice } from '@/store/selectedTodo';
-// import { counterSlice } from '@/store/counter';
-// import { jsonTodosSlice } from '@/store/jsonTodos';
 
 export type ThunkActionType<T = Promise<void>> = ThunkAction<
   T,
@@ -30,10 +26,7 @@ export type AppDispatch = typeof store.dispatch;
 
 const store = configureStore({
   reducer: combineReducers({
-    // todos: todosSlice.reducer,
-    // selectedTodo: selectedTodoSlice.reducer,
-    // counter: counterSlice.reducer,
-    // jsonTodos: jsonTodosSlice.reducer,
+    // getMenu: ``,
   }),
   middleware: [...getDefaultMiddleware(), logger],
   devTools: process.env.NODE_ENV !== `production`,
