@@ -1012,9 +1012,15 @@
   "version" "5.3.1"
 
 "caniuse-lite@^1.0.30001173", "caniuse-lite@^1.0.30001179":
+<<<<<<< HEAD
   "integrity" "sha512-0ZFjnlCaXNOAYcV7i+TtdKBp0L/3XEU2MF/x6Du1lrh+SRX4IfzIVL4HNJg5pB2PmFb8rszIGyOvsZnqqRoc2g=="
   "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001344.tgz"
   "version" "1.0.30001344"
+=======
+  "integrity" "sha512-m5ul/ARCX50JB8BSNM+oiPmQrR5UmngaQ3QThTTp5HcIIQGP/nPBs82BYLE+tigzm3VW+F4BJIhUyaVtEweelQ=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001181.tgz"
+  "version" "1.0.30001181"
+>>>>>>> 86e9e1deaba0ea759eeda9fde6cc02af73a2e3ca
 
 "chalk@^2.0.0":
   "integrity" "sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ=="
